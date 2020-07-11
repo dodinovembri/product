@@ -1,44 +1,23 @@
 {
-    "name": "dnv/product",
+    "name": "dnx/product",
     "description": "Product Module",
-    "type": "composer-plugin",
     "license": "EULA",
-    "minimum-stability": "dev",
-    "require": {},
-	"repositories": {
-		"product": { 
-		  "type": "package",
-		  "package": {
-		    "name": "dnv/product", 
-		    "version": "1.0",
-		    "source": {
-		      "url": "https://github.com/dodinovembri/product.git", 
-		      "type": "git", 
-		      "reference": "origin/master"
-		    }
-		  }
-		}
-	},
-    "autoload": {
-        "classmap": [],
-        "psr-4": {
-        	"Dnv\\Product\\": "src"
-        }
-    },
     "authors": [
         {
-            "name": "Dodi Novemberi",
-            "homepage": "http://pivotalagency.com.au",
-            "email": "tech@pivotalagency.com.au"
+            "name": "Dodi Novembri",
+            "email": "dodinovembri32@gmail.com"
         }
     ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dnx\\Product\\": "src/"
+        }
+    },
     "extra": {
-        "branch-alias": {
-            "dev-master": "master"
-        },
         "laravel": {
             "providers": [
-              "Dnv\\Product\\App\\Providers\\ProductServiceProvider"
+              "Dnx\\Product\\App\\Providers\\ProductServiceProvider"
             ]
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dnv\Product\App\Providers;
+namespace Dnx\Product\App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -24,6 +24,6 @@ class ProductServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadRoutesFrom(__DIR__.'/../../routes.php');
-        $this->loadViewsFrom(__DIR__.'/../../resources/views', 'Dnv_Product');
+        $this->loadViewsFrom(__DIR__.'/../../resources/views', 'Dnx_Product');
     }
 }

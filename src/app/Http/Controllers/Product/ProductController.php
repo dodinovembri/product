@@ -1,6 +1,6 @@
 <?php
 
-namespace Dnv\Product\App\Http\Controllers\Product;
+namespace Dnx\Product\App\Http\Controllers\Product;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -14,7 +14,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        return view('Dnv_Product::product.index');
+        return view('Dnx_Product::product.index');
     }
 
     /**
