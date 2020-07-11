@@ -1,7 +1,7 @@
 {
     "name": "dnv/product",
     "description": "Product Module",
-    "type": "composer-installer",
+    "type": "composer-plugin",
     "license": "EULA",
     "minimum-stability": "dev",
     "require": {},
