@@ -4,7 +4,9 @@
     "type": "composer-plugin",
     "license": "EULA",
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+    	"composer-plugin-api": "1.0.0"
+    },
     "extra": {
         "class": "Dnv\\Product"
     },
