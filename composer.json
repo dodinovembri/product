@@ -5,6 +5,9 @@
     "license": "EULA",
     "minimum-stability": "dev",
     "require": {},
+    "extra": {
+        "class": "Dnv\\Product"
+    },
 	"repositories": {
 		"product": { 
 		  "type": "package",
