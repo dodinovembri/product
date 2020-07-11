@@ -5,7 +5,7 @@
     "license": "EULA",
     "minimum-stability": "dev",
     "require": {},
-	"repositories": {
+	"repositories": [{
 		"product": { // pseudonym of git repo
 		  "type": "package",
 		  "package": {
@@ -18,7 +18,7 @@
 		    }
 		  }
 		}
-	},
+	}],
     "autoload": {
         "classmap": [],
         "psr-4": {
