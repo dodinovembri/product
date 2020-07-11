@@ -5,8 +5,8 @@
     "license": "EULA",
     "minimum-stability": "dev",
     "require": {},
-	"repositories": [{
-		"product": { // pseudonym of git repo
+	"repositories": {
+		"dodinovembri/product": { // pseudonym of git repo
 		  "type": "package",
 		  "package": {
 		    "name": "dnv/product",  // name of git repo
@@ -18,7 +18,7 @@
 		    }
 		  }
 		}
-	}],
+	},
     "autoload": {
         "classmap": [],
         "psr-4": {
