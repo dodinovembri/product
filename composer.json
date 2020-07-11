@@ -1,12 +1,10 @@
 {
     "name": "dnv/product",
     "description": "Product Module",
-    "type": "composer-plugin",
+    "type": "composer-installer",
     "license": "EULA",
     "minimum-stability": "dev",
-    "require": {
-    	"composer-plugin-api": "1.0.0"
-    },
+    "require": {},
     "extra": {
         "class": "Dnv\\Product"
     },
