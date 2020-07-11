@@ -1,0 +1,28 @@
+{
+    "name": "dnv/product",
+    "description": "Product Module",
+    "type": "composer-plugin",
+    "license": "EULA",
+    "minimum-stability": "dev",
+    "require": {},
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dodinovembri/product"
+        }
+    ],
+    "autoload": {
+        "classmap": [],
+        "psr-4": {
+        	"Dnv\\Product\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dodi Novemberi",
+            "homepage": "http://pivotalagency.com.au",
+            "email": "tech@pivotalagency.com.au"
+        }
+    ],
+
+}
